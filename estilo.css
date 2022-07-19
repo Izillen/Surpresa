@@ -1,0 +1,315 @@
+*{
+    margin: auto;
+}
+@font-face {
+    font-family: KiwiMaru;
+    src: url(KiwiMaru-Regular.ttf);
+}
+body{
+position: relative;
+width: 1440px;
+height: 1024px;
+background: #FFC0CB;
+}
+.arquivo{
+position: absolute;
+left: 10px;
+top: 20px;
+}
+#arquivo{
+position: absolute;
+background-color: transparent;
+border: none;
+width: 197px;
+height: 197px;
+}
+img{
+position: absolute;
+left: 621px;
+top: 414px;
+transition: top 0.5s linear, left 0.5s linear; 
+}
+.texto{
+position: absolute;
+width: 801px;
+height: 70px;
+left: 319px;
+top: 329px;
+font-family: 'KiwiMaru';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 58px;
+color: #000000;
+}
+
+/* estilo pag_entrar */
+.login_forma{
+position: absolute;
+width: 718px;
+height: 755px;
+left: 361px;
+top: 135px;
+background: #FFECEC;
+border-radius: 15px;
+}
+#titulo_entrar{
+position: relative;
+width: 614px;
+height: 125px;
+left: 0;
+top: 30px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+text-align: center;
+color: #000000;
+}
+
+.nome_forma{
+position: relative;
+top: -330px;
+left: -400px;
+}
+
+#nome_texto{
+position: relative;
+width: 179px;
+height: 34px;
+left: 403px;
+top: 341px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+#nome{
+box-sizing: border-box;
+position: relative;
+width: 408px;
+height: 37px;
+left: 420px;
+top: 338px;
+background: #FFFFFF;
+border: 1px solid #ACACAC;
+border-radius: 20px;
+}
+
+.idade_forma{
+position: relative;
+top: -380px;
+left: -355px;
+}
+
+#idade_texto{
+position: relative;
+width: 179px;
+height: 34px;
+left: 355px;
+top: 403px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+#idade{
+box-sizing: border-box;
+position: relative;
+width: 408px;
+height: 37px;
+left: 465px;
+top: 400px;
+background: #FFFFFF;
+border: 1px solid #ACACAC;
+border-radius: 20px;
+}
+
+.aniversário_forma{
+position: relative;
+top: -360px;
+left: -355px;
+}
+
+#aniversario_texto{
+position: relative;
+width: 179px;
+height: 34px;
+left: 355px;
+top: 403px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+#data{
+box-sizing: border-box;
+position: relative;
+width: 408px;
+height: 37px;
+left: 350px;
+top: 400px;
+background: #FFFFFF;
+border: 1px solid #ACACAC;
+border-radius: 20px;
+}
+
+.estado_forma{
+position: relative;
+top: -340px;
+left: -355px;
+}
+
+#estado_texto{
+position: relative;
+width: 179px;
+height: 34px;
+left: 355px;
+top: 403px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+#estado{
+box-sizing: border-box;
+position: relative;
+width: 408px;
+height: 37px;
+left: 350px;
+top: 400px;
+background: #FFFFFF;
+border: 1px solid #ACACAC;
+border-radius: 20px;    
+}
+
+.amor_forma{
+position: relative;
+top: -330px;
+left: -355px;
+}
+
+#namorada_texto{
+position: relative;
+width: 179px;
+height: 34px;
+left: 355px;
+top: 403px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+}
+
+#namorada{
+position: relative;
+
+left: 355px;
+top: 403px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+color: #000000;
+}
+#botao{
+position: absolute;
+width: 259px;
+height: 51px;
+left: 250px;
+top: 650px;
+background: #FFBBBB;
+border: none;
+border-radius: 20px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+}
+
+#texto{
+position: absolute;
+width: 538px;
+height: 60px;
+left: 451px;
+top: 161px;
+font-family: 'Kiwi Maru';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 58px;
+color: #000000;
+}
+#carta{
+position: absolute;
+left: 12.08%;
+right: 75.28%;
+top: 43.36%;
+bottom: 43.26%
+}
+#playlist{
+position: absolute;
+width: 158px;
+height: 158px;
+left: 608px;
+top: 433px;
+position: absolute;
+left: 0.04%;
+right: 0.04%;
+top: 10%;
+bottom: 10%;
+}
+#fotos{
+position: absolute;
+width: 285px;
+height: 243px;
+left: 1018px;
+top: 352px;
+}
+#gato{
+position: absolute;
+width: 157px;
+height: 157px;
+left: -215px;
+top: 867px;
+}
+#cachorro{
+position: absolute;
+left: 100%;
+right: -11.11%;
+top: 85.35%;
+bottom: 0%;
+}
+
+#titulo_playlist{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 100px;
+}
+#playlists{
+position: relative;
+top: 150px;
+}

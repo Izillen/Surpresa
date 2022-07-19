@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Gio &#9825;</title>
+</head>
+<body>
+    <div class="login_forma">
+            <h1 id="titulo_entrar">Para continuar preencha as informações corretamente!</h1>
+            <div class="nome_forma">
+                <label for="username" id="nome_texto">Nome Completo:</label>
+                <input type="text" id="nome" placeholder="Digite o seu nome" required>
+            </div>
+            <div class="idade_forma">
+                <label for="age" id="idade_texto">Idade:</label>
+                <input type="number" id="idade" placeholder="Digite a sua idade" required>
+            </div>
+            <div class="aniversário_forma">
+                <label for="aniversário" id="aniversario_texto">Data de aniversário:</label>
+                <input type="date" id="data" required>
+            </div>
+            <div class="estado_forma">
+                <label for="city" id="estado_texto">Estado onde nasceu:</label>
+                <select id="estado" required>
+                    <option>Escolha o estado:</option>
+                    <option>Santa Catarina</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Goiás</option>
+                </select>
+            </div>
+            <div class="amor_forma">
+                <label for="girlfriend" id="namorada_texto">Qual o nome da sua Namorada?</label>
+                <form id="namorada">
+                <input type="radio" id="ellen1" name="namorada">
+                <label for="ellen1">Ellen Beatriz Lira Barreto Monteiro</label>
+                <br>
+                <input type="radio" id="ellen2" name="namorada">
+                <label for="ellen2">Hellen Beatriz Barreto Lyra Monteiro</label>
+                <br>
+                <input type="radio" id="ellen3" name="namorada">
+                <label for="ellen3">Elen Beatriz Lyra Barreto Monteiro</label>
+                <br>
+                <input type="radio" id="ellen4" name="namorada">
+                <label for="ellen4">Ellen Beatriz Lyra Barreto Monteiro</label>
+                </form>
+            </div>
+            <a href="pag_surpresa.html"><input type="submit" value="Entrar" id="botao"></a>
+    </div>
+</body>
+</html>
